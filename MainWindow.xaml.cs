@@ -24,5 +24,35 @@ namespace Wpf_Chemeris_PR1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            button1.IsEnabled = false;
+            button2.IsEnabled = false;
+            button3.IsEnabled = false;
+
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            button1.IsEnabled = false;
+            button2.IsEnabled = false;
+            button3.IsEnabled = false;
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            button1.IsEnabled = false;
+            button2.IsEnabled = false;
+            button3.IsEnabled = false;
+            
+        }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            button1.IsEnabled = true;
+            button2.IsEnabled = true;
+            button3.IsEnabled = true;
+        }
     }
 }

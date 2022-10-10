@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Canvas>
+            <Button Click="button1_Click" x:Name="button1" Width="60" Height="30" Background="Blue" Content="Кнопка 1" Canvas.Left="10" Canvas.Top="10"></Button>
+            <Button Click="button2_Click" x:Name="button2" Width="60" Height="30" Background="Red" Content="Кнопка 2" Canvas.Left="83" Canvas.Top="10"></Button>
+            <Button Click="button3_Click" x:Name="button3" Width="60" Height="30" Background="GreenYellow" Content="Кнопка 3" Canvas.Left="160" Canvas.Top="10"></Button>
+            <Button Click="button4_Click" x:Name="button4" Width="60" Height="30" Background="White" Content="Очистить" Canvas.Left="236" Canvas.Top="10"></Button>
+        </Canvas>
     </Grid>
 </Window>
